@@ -28,6 +28,7 @@ for (let i = 0; i < inputs.length; i++) {
 
 function verificationCode(array, str, inputs, index) {
   //Search in all inputs have className "has-code"
+  // if all inputs has class name "has-code"
   let filterInputHasCode = array.filter((item) =>
     item.classList.contains("has-code")
   );
